@@ -12,7 +12,10 @@ use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\PageCache;
 use CodeIgniter\Filters\PerformanceMetrics;
 use CodeIgniter\Filters\SecureHeaders;
+<<<<<<< HEAD
 use App\Filters\AuthenticationFilter;
+=======
+>>>>>>> efa0b50a70f3e0bffd1daf3dcf0f58f3006aa46d
 
 class Filters extends BaseFilters
 {
@@ -35,7 +38,10 @@ class Filters extends BaseFilters
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
+<<<<<<< HEAD
         'auth' => AuthenticationFilter::class,
+=======
+>>>>>>> efa0b50a70f3e0bffd1daf3dcf0f58f3006aa46d
     ];
 
     /**
