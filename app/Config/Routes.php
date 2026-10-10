@@ -35,9 +35,26 @@ $routes->group('', ['filter' => 'auth'], static function ($routes) {
     $routes->get('staff/edit/(:num)', 'Staff::edit/$1');
     $routes->post('staff/update/(:num)', 'Staff::update/$1');
     $routes->post('staff/delete/(:num)', 'Staff::delete/$1');
+<<<<<<< HEAD
 
     // Sales
     $routes->get('sales', 'Sales::index');
     $routes->get('sales/new', 'Sales::create');
     $routes->post('sales/store', 'Sales::store');
 });
+=======
+});
+
+/** @var RouteCollection $routes */
+$routes->get('/', 'Auth::login');
+$routes->get('products', 'Products::index');
+$routes->get('products/new', 'Products::add');
+$routes->post('products/create', 'Products::create');
+$routes->get('products/edit/(:num)', 'Products::edit/$1');
+$routes->post('products/update/(:num)', 'Products::update/$1');
+$routes->post('products/delete/(:num)', 'Products::delete/$1');
+
+$routes->get('sales', 'Sales::index'); 
+$routes->get('sales/new', 'Sales::create');
+$routes->post('sales/store', 'Sales::store');  
+>>>>>>> 8422c52a77def85c6b2943d102f0b7f4ffac23a2

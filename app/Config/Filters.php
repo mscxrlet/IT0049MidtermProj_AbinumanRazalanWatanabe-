@@ -13,7 +13,12 @@ use CodeIgniter\Filters\PageCache;
 use CodeIgniter\Filters\PerformanceMetrics;
 use CodeIgniter\Filters\SecureHeaders;
 use App\Filters\AuthenticationFilter;
+<<<<<<< HEAD
 
+=======
+//=======
+//>>>>>>> efa0b50a70f3e0bffd1daf3dcf0f58f3006aa46d
+>>>>>>> 8422c52a77def85c6b2943d102f0b7f4ffac23a2
 
 class Filters extends BaseFilters
 {
